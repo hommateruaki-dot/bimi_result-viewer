@@ -1,0 +1,110 @@
+{
+    "extensionName": {
+        "message": "Thunderbird BIMI Result Viewer"
+    },
+    "extensionDescription": {
+        "message": "表示中メールのBIMI関連認証情報をツールバーのポップアップに表示します。"
+    },
+    "appTitle": {
+        "message": "BIMI Result Viewer"
+    },
+    "messageSection": {
+        "message": "Message"
+    },
+    "subject": {
+        "message": "Subject"
+    },
+    "from": {
+        "message": "From"
+    },
+    "headerFromDomain": {
+        "message": "Header-From Domain"
+    },
+    "bimiHeaderD": {
+        "message": "BIMI header.d"
+    },
+    "logoSection": {
+        "message": "Logo"
+    },
+    "noLogoUrl": {
+        "message": "ロゴURLが見つかりません。"
+    },
+    "authenticationResultsSection": {
+        "message": "Authentication Results"
+    },
+    "bimi": {
+        "message": "BIMI"
+    },
+    "dmarc": {
+        "message": "DMARC"
+    },
+    "dkim": {
+        "message": "DKIM"
+    },
+    "spf": {
+        "message": "SPF"
+    },
+    "policyAuthority": {
+        "message": "policy.authority"
+    },
+    "bimiIndicator": {
+        "message": "BIMI-Indicator"
+    },
+    "domainMatch": {
+        "message": "Domain Match"
+    },
+    "reasonSection": {
+        "message": "判定理由"
+    },
+    "yes": {
+        "message": "あり"
+    },
+    "no": {
+        "message": "なし"
+    },
+    "notAvailable": {
+        "message": "N/A"
+    },
+    "dash": {
+        "message": "-"
+    },
+    "reasonPass": {
+        "message": "BIMIはpassです。必要なヘッダ条件を満たしています。"
+    },
+    "reasonNoMessage": {
+        "message": "表示中メールが1通ではありません。"
+    },
+    "reasonBimiNotPass": {
+        "message": "BIMIの結果がpassではありません。"
+    },
+    "reasonPolicyAuthorityNotPass": {
+        "message": "policy.authorityがpassではありません。"
+    },
+    "reasonNoBimiIndicator": {
+        "message": "BIMI-Indicatorヘッダが見つかりません。"
+    },
+    "reasonDomainMismatch": {
+        "message": "BIMI header.d と Header-From ドメインが一致していません。"
+    },
+    "reasonNoLogo": {
+        "message": "BIMIロゴURLが見つかりません。"
+    },
+    "errorNoSingleDisplayedMessage": {
+        "message": "表示中メールを取得できませんでした。メールを1通だけ選択してから、再度Popupを開いてください。"
+    },
+    "logoLoading": {
+        "message": "ロゴを読み込み中です。外部画像の読み込みがブロックされる場合があります。"
+    },
+    "logoLoadFailed": {
+        "message": "ロゴ画像を読み込めませんでした"
+    },
+    "errorNoDisplayedMessage": {
+        "message": "表示中メールを取得できませんでした。"
+    },
+    "present": {
+        "message": "あり"
+    },
+    "actionTitle": {
+        "message": "BIMI Result Viewer"
+    }
+}

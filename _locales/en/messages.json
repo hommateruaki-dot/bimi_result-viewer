@@ -1,0 +1,110 @@
+{
+    "extensionName": {
+        "message": "Thunderbird BIMI Result Viewer"
+    },
+    "extensionDescription": {
+        "message": "Displays BIMI-related authentication information for the currently displayed message in a toolbar popup."
+    },
+    "appTitle": {
+        "message": "BIMI Result Viewer"
+    },
+    "messageSection": {
+        "message": "Message"
+    },
+    "subject": {
+        "message": "Subject"
+    },
+    "from": {
+        "message": "From"
+    },
+    "headerFromDomain": {
+        "message": "Header-From Domain"
+    },
+    "bimiHeaderD": {
+        "message": "BIMI header.d"
+    },
+    "logoSection": {
+        "message": "Logo"
+    },
+    "noLogoUrl": {
+        "message": "No logo URL found."
+    },
+    "authenticationResultsSection": {
+        "message": "Authentication Results"
+    },
+    "bimi": {
+        "message": "BIMI"
+    },
+    "dmarc": {
+        "message": "DMARC"
+    },
+    "dkim": {
+        "message": "DKIM"
+    },
+    "spf": {
+        "message": "SPF"
+    },
+    "policyAuthority": {
+        "message": "policy.authority"
+    },
+    "bimiIndicator": {
+        "message": "BIMI-Indicator"
+    },
+    "domainMatch": {
+        "message": "Domain Match"
+    },
+    "reasonSection": {
+        "message": "Reason"
+    },
+    "yes": {
+        "message": "Yes"
+    },
+    "no": {
+        "message": "No"
+    },
+    "notAvailable": {
+        "message": "N/A"
+    },
+    "dash": {
+        "message": "-"
+    },
+    "reasonPass": {
+        "message": "BIMI passed. Required header conditions were satisfied."
+    },
+    "reasonNoMessage": {
+        "message": "No single displayed message was found."
+    },
+    "reasonBimiNotPass": {
+        "message": "BIMI result is not pass."
+    },
+    "reasonPolicyAuthorityNotPass": {
+        "message": "policy.authority is not pass."
+    },
+    "reasonNoBimiIndicator": {
+        "message": "BIMI-Indicator header was not found."
+    },
+    "reasonDomainMismatch": {
+        "message": "BIMI header.d does not match Header-From domain."
+    },
+    "reasonNoLogo": {
+        "message": "No BIMI logo URL was found."
+    },
+    "errorNoSingleDisplayedMessage": {
+        "message": "Could not get a single displayed message. Please select one message and open the popup again."
+    },
+    "logoLoading": {
+        "message": "Loading logo. External image loading may be blocked."
+    },
+    "logoLoadFailed": {
+        "message": "Could not load logo image"
+    },
+    "errorNoDisplayedMessage": {
+        "message": "Could not get the currently displayed message."
+    },
+    "present": {
+        "message": "present"
+    },
+    "actionTitle": {
+        "message": "BIMI Result Viewer"
+    }
+}

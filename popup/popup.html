@@ -1,0 +1,77 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <title>BIMI Result Viewer</title>
+  <link rel="stylesheet" href="popup.css">
+</head>
+
+<body>
+  <main>
+    <header>
+      <h1 data-i18n="appTitle">BIMI Result Viewer</h1>
+      <div id="overall" class="status status-na">CHECKING</div>
+    </header>
+
+    <section id="message" class="card">
+      <h2 data-i18n="messageSection">Message</h2>
+      <dl>
+        <dt data-i18n="subject">Subject</dt>
+        <dd id="subject">-</dd>
+
+        <dt data-i18n="from">From</dt>
+        <dd id="from">-</dd>
+
+        <dt data-i18n="headerFromDomain">Header-From Domain</dt>
+        <dd id="headerFromDomain">-</dd>
+
+        <dt data-i18n="bimiHeaderD">BIMI header.d</dt>
+        <dd id="bimiHeaderD">-</dd>
+      </dl>
+    </section>
+
+    <section id="logoSection" class="card">
+      <h2 data-i18n="logoSection">Logo</h2>
+      <div id="logoBox" class="logo-box">
+        <img id="logo" alt="BIMI logo" hidden>
+        <div id="logoNote" data-i18n="noLogoUrl">No logo URL found.</div>
+      </div>
+    </section>
+
+    <section id="authenticationResults" class="card">
+      <h2 data-i18n="authenticationResultsSection">Authentication Results</h2>
+      <dl>
+        <dt data-i18n="bimi">BIMI</dt>
+        <dd id="bimiResult">-</dd>
+
+        <dt data-i18n="dmarc">DMARC</dt>
+        <dd id="dmarcResult">-</dd>
+
+        <dt data-i18n="dkim">DKIM</dt>
+        <dd id="dkimResult">-</dd>
+
+        <dt data-i18n="spf">SPF</dt>
+        <dd id="spfResult">-</dd>
+
+        <dt data-i18n="policyAuthority">policy.authority</dt>
+        <dd id="policyAuthority">-</dd>
+
+        <dt data-i18n="bimiIndicator">BIMI-Indicator</dt>
+        <dd id="bimiIndicator">-</dd>
+
+        <dt data-i18n="domainMatch">Domain Match</dt>
+        <dd id="domainMatched">-</dd>
+      </dl>
+    </section>
+
+    <section id="reasonSection" class="card">
+      <h2 data-i18n="reasonSection">Reason</h2>
+      <ul id="reasons"></ul>
+    </section>
+  </main>
+
+  <script src="popup.js"></script>
+</body>
+
+</html>
