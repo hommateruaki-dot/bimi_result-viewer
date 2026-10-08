@@ -111,8 +111,13 @@ var BimiViewer = (() => {
 
   function extractUrl(value) {
     const text = String(value || "");
-    const url = text.match(/https?:\/\/[^\s<>\"')]+/i);
-    return url ? url[0] : "";
+    const url = text.match(/\bhttps:\/\/[^\s<>\"')]+/i);
+    if (!url) return "";
+    try {
+      return new URL(url[0]).protocol === "https:" ? url[0] : "";
+    } catch {
+      return "";
+    }
   }
 
   function makeReasonFlags(data) {

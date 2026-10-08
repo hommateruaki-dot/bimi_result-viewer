@@ -63,6 +63,15 @@ function setLogo(result) {
 
   if (!result.indicatorUri) return;
 
+  // Validate both policy.indicator-uri and BIMI-Indicator before loading.
+  let logoUrl;
+  try {
+    logoUrl = new URL(result.indicatorUri);
+    if (logoUrl.protocol !== "https:") return;
+  } catch {
+    return;
+  }
+
   note.textContent = t("logoLoading");
   img.onload = () => {
     note.hidden = true;
@@ -73,7 +82,7 @@ function setLogo(result) {
     note.hidden = false;
     note.textContent = `${t("logoLoadFailed")}: ${result.indicatorUri}`;
   };
-  img.src = result.indicatorUri;
+  img.src = logoUrl.href;
 }
 
 function showError(message) {

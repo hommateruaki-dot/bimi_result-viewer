@@ -1,6 +1,6 @@
 {
     "extensionName": {
-        "message": "Thunderbird BIMI Result Viewer"
+        "message": "BIMI Result Viewer for Thunderbird"
     },
     "extensionDescription": {
         "message": "Displays BIMI-related authentication information for the currently displayed message in a toolbar popup."

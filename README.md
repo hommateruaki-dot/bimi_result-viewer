@@ -1,4 +1,4 @@
-# Thunderbird BIMI Result Viewer
+# BIMI Result Viewer for Thunderbird
 
 This Thunderbird add-on displays BIMI-related authentication information for the currently displayed message in a message display action popup.
 
@@ -15,7 +15,7 @@ This version intentionally does not use Experiment APIs and does not modify Thun
   * presence of `BIMI-Indicator`
   * match between BIMI `header.d` and the Header-From domain
 * Shows SPF, DKIM, DMARC, and BIMI results in the popup.
-* Shows the BIMI logo in the popup when `policy.indicator-uri` or a URL in `BIMI-Indicator` is available.
+* Shows the BIMI logo in the popup when an HTTPS URL in `policy.indicator-uri` or `BIMI-Indicator` is available. The popup validates the URL again and restricts image loading to HTTPS.
 
 ## Internationalization
 

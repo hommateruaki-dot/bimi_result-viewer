@@ -1,6 +1,6 @@
 {
     "extensionName": {
-        "message": "Thunderbird BIMI Result Viewer"
+        "message": "BIMI Result Viewer for Thunderbird"
     },
     "extensionDescription": {
         "message": "表示中メールのBIMI関連認証情報をツールバーのポップアップに表示します。"
